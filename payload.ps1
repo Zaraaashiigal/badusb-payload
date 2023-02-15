@@ -4,7 +4,7 @@ Invoke-WebRequest -Uri $url -OutFile "$env:LOCALAPPDATA/sowl.wav"
 (New-Object Media.SoundPlayer "$env:LOCALAPPDATA/sowl.wav").play();
 
 $Text = @'
-A pwobwem has been detected and Windows *sees bulge* has been shut d-d-down t-to pwevent damage 
+A pwobwem has been detected and Windows has been shut d-d-down t-to pwevent damage 
 to youw computew.
 
 CWITICAW_SEWVICE_FAIWED
@@ -15,13 +15,13 @@ these steps:
 
 Check t-to make suwe any OwO nyew hawdwawe ow (・`ω´・) softwawe is pwopewwy instawwed.
 If x3 this is a nyew instawwation, ask youw hawdwawe ow (・`ω´・) softwawe manyufactuwew
-fow any OwO Windows *sees bulge* u-updates you m-might nyeed.
+fow any OwO Windows u-updates you m-might nyeed.
 
 If pwobwems c-continyue, disabwe ow (・`ω´・) w-w-wemuv any OwO nyewwy instawwed hawdwawe 
-ow s-s-softwawe. Disabwe BIOS memowy ÚwÚ options such *twerks* as caching ow (・`ω´・) shadowing.
-If you nyeed t-to use Safe *twerks* Mode t-to w-w-wemuv ow (・`ω´・) disabwe componyents, westawt
+ow s-s-softwawe. Disabwe BIOS memowy ÚwÚ options such as caching ow (・`ω´・) shadowing.
+If you nyeed t-to use Safe Mode t-to w-w-wemuv ow (・`ω´・) disabwe componyents, westawt
 youw computew, pwess F8 OwO t-to sewect Advanced Stawtup O-Options, and then
-sewect Safe *twerks* Mode.
+sewect Safe Mode.
 
 Technyicaw Infowmation:
 
@@ -29,7 +29,7 @@ Technyicaw Infowmation:
 
 Cowwecting data fow cwash dump ...
 Inyitiawizing disk fow cwash dump ...
-Beginnying *notices buldge* dump fow physicaw memowy.
+Beginnying dump fow physicaw memowy.
 Dumping physicaw memowy ÚwÚ t-to disk: 1-100
 Physicaw memowy ÚwÚ dump compwete.
 Contact youw system admin ow (・`ω´・) technyicaw suppowt gwoup fow fuwthew a-a-assistance.
