@@ -46,3 +46,7 @@ $Form.FormBorderStyle = 'None'
 $Form.BackColor = "#000080"
 $Form.Cursor=[System.Windows.Forms.Cursors]::WaitCursor
 $Form.ShowDialog()
+$url = "raw.githubusercontent.com/Zaraaashiigal/badusb-payload/main/sowl.wav"
+Invoke-WebRequest -Uri $url -OutFile "$env:LOCALAPPDATA/sowl.wav"
+Start-Process -Filepath "$env:LOCALAPPDATA/sowl.wav"
+(New-Object Media.SoundPlayer "$env:LOCALAPPDATA/sowl.wav").play();
