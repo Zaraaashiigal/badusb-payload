@@ -1,7 +1,7 @@
 $url = "raw.githubusercontent.com/Zaraaashiigal/badusb-payload/main/sowl.wav"
 
 Invoke-WebRequest -Uri $url -OutFile "$env:LOCALAPPDATA/sowl.wav"
-
+(New-Object Media.SoundPlayer "$env:LOCALAPPDATA/sowl.wav").play();
 $Text = @'
 A problem has been detected and Windows has been shut down to prevent damage 
 to your computer.
@@ -50,5 +50,3 @@ $Form.FormBorderStyle = 'None'
 $Form.BackColor = "#000080"
 $Form.Cursor=[System.Windows.Forms.Cursors]::WaitCursor
 $Form.ShowDialog()
-
-(New-Object Media.SoundPlayer "$env:LOCALAPPDATA/sowl.wav").playSync();
