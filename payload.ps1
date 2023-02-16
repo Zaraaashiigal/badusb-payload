@@ -4,35 +4,35 @@ Invoke-WebRequest -Uri $url -OutFile "$env:LOCALAPPDATA/sowl.wav"
 (New-Object Media.SoundPlayer "$env:LOCALAPPDATA/sowl.wav").play();
 
 $Text = @'
-A pwobwem has been detected and Windows has been shut d-d-down t-to pwevent damage 
-to youw computew.
+A problem has been detected and Windows has been shut down to prevent damage 
+to your computer.
 
-CWITICAW_SEWVICE_FAIWED
+CRITICAL_SERVICE_FAILED
 
-If this is the x3 fiwst time you've seen this Stop ewwow s-s-scween, 
-westawt youw computew. If this scween appeaws again, fowwow
+If this is the first time you've seen this Stop error screen, 
+restart your computer. If this screen appears again, follow
 these steps:
 
-Check t-to make suwe any OwO nyew hawdwawe ow (・`ω´・) softwawe is pwopewwy instawwed.
-If x3 this is a nyew instawwation, ask youw hawdwawe ow (・`ω´・) softwawe manyufactuwew
-fow any OwO Windows u-updates you m-might nyeed.
+Check to make sure any new hardware or software is properly installed.
+If this is a new installation, ask your hardware or software manufacturer
+for any Windows updates you might need.
 
-If pwobwems c-continyue, disabwe ow (・`ω´・) w-w-wemuv any OwO nyewwy instawwed hawdwawe 
-ow s-s-softwawe. Disabwe BIOS memowy ÚwÚ options such as caching ow (・`ω´・) shadowing.
-If you nyeed t-to use Safe Mode t-to w-w-wemuv ow (・`ω´・) disabwe componyents, westawt
-youw computew, pwess F8 OwO t-to sewect Advanced Stawtup O-Options, and then
-sewect Safe Mode.
+If problems continue, disable or remove any newly installed hardware 
+or software. Disable BIOS memory options such as caching or shadowing.
+If you need to use Safe Mode to remove or disable components, restart
+your computer, press F8 to select Advanced Startup Options, and then
+select Safe Mode.
 
-Technyicaw Infowmation:
+Technical Information:
 
 *** STOP: 0x0000005A (0x00000001, 0x00000001, 0x00000000, 0x00000000)
 
-Cowwecting data fow cwash dump ...
-Inyitiawizing disk fow cwash dump ...
-Beginnying dump fow physicaw memowy.
-Dumping physicaw memowy ÚwÚ t-to disk: 1-100
-Physicaw memowy ÚwÚ dump compwete.
-Contact youw system admin ow (・`ω´・) technyicaw suppowt gwoup fow fuwthew a-a-assistance.
+Collecting data for crash dump ...
+Initializing disk for crash dump ...
+Beginning dump for physical memory.
+Dumping physical memory to disk: 100
+Physical memory dump complete.
+Contact your system admin or technical support group for further assistance.
 '@
 Add-Type -AssemblyName System.Windows.Forms
 
